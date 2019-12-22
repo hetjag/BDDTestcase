@@ -90,10 +90,8 @@ public class RegexPractice {
         }
         //Find out answer in decimal
         public static void findOutAnswerInDecimal() {
-
-            float old = 1 / 3;
-            Double result = Double.parseDouble(String.valueOf(old));
-            System.out.println("Find out answer in decimal =" + (old));
+                double abc=((double)1)/3;
+                System.out.println("Find out answer in decimal =" + abc);
 
         }
 
